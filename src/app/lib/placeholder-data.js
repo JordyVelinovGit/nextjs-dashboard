@@ -80,6 +80,12 @@ const invoices = [
     date: '2022-12-06',
   },
   {
+    customer_id: customers[0].id,
+    amount: 12345,
+    status: 'late',
+    date: '2023-12-01',
+  },
+  {
     customer_id: customers[1].id,
     amount: 20348,
     status: 'pending',
